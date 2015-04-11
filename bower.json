@@ -1,0 +1,14 @@
+{
+  "name": "todos",
+  "version": "0.0.1",
+  "description": "simple todo application",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static",
+    "test",
+    "tests"
+  ]
+}
