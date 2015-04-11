@@ -5,7 +5,7 @@ import (
 )		
 
 type Todo struct {
-    Id          int 	`form:"-"`
+    Id          int 	`form:"id"`
     Title       string	`form:"title"`
     Isdone      bool	
 }
