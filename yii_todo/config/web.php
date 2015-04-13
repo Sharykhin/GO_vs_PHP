@@ -11,6 +11,12 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'lRbLZ2It05b7eKzh5UTxntmmQ1e-XFR4',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => true,
+            'rules' => require __DIR__.'/routes.php'
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -38,6 +44,11 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+    ],
+    'modules'=>[
+        'todo'=>[
+            'class' => 'app\modules\todo\Module',
+        ]
     ],
     'params' => $params,
 ];
