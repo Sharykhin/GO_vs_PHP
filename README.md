@@ -1,7 +1,7 @@
 Author: Siarhei Sharykhin
 
 there are two branch: php and golang
-checkout to neccessary branch and lauch test
+checkout to neccessary branch and run tests
 
 Results:
 -------
