@@ -6,6 +6,10 @@ checkout to neccessary branch and run tests
 Results:
 -------
 
+php: 5.5
+Go: 1.4
+MySQL: 5.5
+
 Machine:
 i3 3.30 GHzx4
 15.4 RAM
